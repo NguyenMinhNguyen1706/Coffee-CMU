@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="Cà phê CMU">
+  <BOModel>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" Caption="Base User" />
+  </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="@c5ae3ba4-c74d-42d2-a6fa-b00644291457" Caption="Thành viên" ImageName="BO_Department_32x32" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="@370c6cc3-3fd1-4282-b473-d19c7f501c4e" ImageName="BO_Role_32x32" Caption="Nguyễn Quang Sắc" QuickAccessItem="True" IsNewNode="True" />
+          <Item Id="@3a65f4c4-3a5e-4836-8976-9c8c43aaa3cd" ImageName="BO_Employee_32x32" Caption="Nguyễn Ngọc Thịnh" QuickAccessItem="True" IsNewNode="True" />
+          <Item Id="@8039fdd3-bced-4d51-9442-2da074cda3fe" ImageName="BO_User_32x32" Caption="Nguyễn Ngọc Sang" QuickAccessItem="True" IsNewNode="True" />
+          <Item Id="@bd69c57e-5daa-4f81-9353-667e521951cc" Caption="Nguyễn Minh Nguyên" ImageName="BO_Customer_32x32" QuickAccessItem="True" Visible="True" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="@ca5b61c5-f528-4103-81a3-b6f261218a0a" Caption="Quản lý" ImageName="PictureBox_32x32" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="@0fff0f17-eeda-44d9-a262-f2ec4e95f18c" ViewId="Hoadon_ListView" Caption="Hóa đơn" ImageName="BO_List_32x32" IsNewNode="True" />
+          <Item Id="@d930c7ff-ee6e-45c6-821b-c16e14605ccf" ViewId="SanPham_ListView" Caption="Sản Phẩm" ImageName="BO_Order_32x32" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="24.1.7.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="ApplicationUser_ListView" Caption="Users" />
+  </Views>
+</Application>

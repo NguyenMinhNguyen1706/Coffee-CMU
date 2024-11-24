@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMU.Module", "CMU.Module\CMU.Module.csproj", "{AD303376-DEF1-40FD-96AB-8F32633C0DB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMU.Blazor.Server", "CMU.Blazor.Server\CMU.Blazor.Server.csproj", "{3E6E3091-2006-4374-806F-65BC7804D93D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		EasyTest|Any CPU = EasyTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD303376-DEF1-40FD-96AB-8F32633C0DB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD303376-DEF1-40FD-96AB-8F32633C0DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD303376-DEF1-40FD-96AB-8F32633C0DB4}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{AD303376-DEF1-40FD-96AB-8F32633C0DB4}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{AD303376-DEF1-40FD-96AB-8F32633C0DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD303376-DEF1-40FD-96AB-8F32633C0DB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E6E3091-2006-4374-806F-65BC7804D93D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E6E3091-2006-4374-806F-65BC7804D93D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E6E3091-2006-4374-806F-65BC7804D93D}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{3E6E3091-2006-4374-806F-65BC7804D93D}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{3E6E3091-2006-4374-806F-65BC7804D93D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E6E3091-2006-4374-806F-65BC7804D93D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
